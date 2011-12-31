@@ -1,0 +1,25 @@
+﻿Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{FB53E866-69DA-41DE-9D5B-27365E49AB68}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\Google.GData.Analytics.dll = Dependencies\Google.GData.Analytics.dll
+		Dependencies\Google.GData.Client.dll = Dependencies\Google.GData.Client.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAnalyticsReportGenerator", "WebAnalyticsReportGenerator\WebAnalyticsReportGenerator.csproj", "{3FA8D8C6-ADC5-4496-AD70-4C361724886A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FA8D8C6-ADC5-4496-AD70-4C361724886A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA8D8C6-ADC5-4496-AD70-4C361724886A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA8D8C6-ADC5-4496-AD70-4C361724886A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA8D8C6-ADC5-4496-AD70-4C361724886A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

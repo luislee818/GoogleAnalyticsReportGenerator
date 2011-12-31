@@ -1,0 +1,38 @@
+﻿span.sectionHeader 
+{
+    font-style: italic;
+    font-weight: bold;
+    font-size: larger;
+    font-family: Calibri;
+}
+
+table.report {
+	border-width: 1px;
+    font-family: Calibri;
+	border-style: solid;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: white;
+}
+
+table.report th {
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+    text-align: center;
+}
+
+table.report td {
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+    text-align: center;
+}
+
+table.report td.leftJustify {
+    text-align: left;
+}
