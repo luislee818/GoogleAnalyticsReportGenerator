@@ -6,11 +6,11 @@ After spending a weekend writing it, the effort for compiling the report was *cu
 #### Long story:
 The developer maintaining the site used to manually compile report every week - opens the Analytics site (not Google) in browser, grabs last week’s data into Excel, tweaks the wording and formats, copies into email and sends out.   
 
-When that developer left and I was assigned, I did research on Google Analytics, tested it and verified the results from both analytics services were basically the same, then wrote this application utilizing Google Analytics API and automating the report generation.   
+When that developer left and I was assigned, I did research on Google Analytics, tested and verified the results from both analytics services, wrote this application to automate the report generation.   
 
-The application separates data retrieval (report building) and report generation, if in the future we would change analytics service, only the data retrieval part will be changed; also uses interface to abstract out report generation from its underlying format. So *concerns are separated*.     
+The application separates data retrieval (report building) and report generation, if we would change analytics service later, only the data retrieval part will be changed; uses interface abstracting out report generation from specific report formats. So *concerns are separated*.     
 
-#### Usage
+#### Usage & Sample
 Specify settings in app.config before running the program:
 
 - GAUsername
@@ -21,3 +21,5 @@ Specify settings in app.config before running the program:
 - EndDate
 - StyleSheetPath
 - OutputFolderPath
+
+A sample report (Sample.html) can be found under the root directory.

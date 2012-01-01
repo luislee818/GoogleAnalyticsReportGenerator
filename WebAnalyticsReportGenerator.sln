@@ -9,6 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAnalyticsReportGenerator", "WebAnalyticsReportGenerator\WebAnalyticsReportGenerator.csproj", "{3FA8D8C6-ADC5-4496-AD70-4C361724886A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{8C0A2AFB-0B4E-4902-B78A-9784A35A5D22}"
+	ProjectSection(SolutionItems) = preProject
+		Sample.html = Sample.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
